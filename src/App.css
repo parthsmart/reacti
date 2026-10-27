@@ -112,6 +112,37 @@ h1 {
   filter: brightness(1.08);
 }
 
+.lesson-form {
+  display: grid;
+  gap: 10px;
+}
+
+.lesson-form label {
+  color: var(--text-h);
+  font-weight: 700;
+}
+
+.lesson-form input {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-h);
+  font: inherit;
+  padding: 11px 12px;
+}
+
+.lesson-form input:focus {
+  border-color: var(--accent);
+  outline: 2px solid var(--accent-border);
+  outline-offset: 1px;
+}
+
+.event-message {
+  color: var(--text-h);
+  font-weight: 700;
+  margin-top: 20px;
+}
+
 @media (max-width: 720px) {
   .app-shell {
     padding: 40px 18px;

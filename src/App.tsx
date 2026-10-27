@@ -1,3 +1,4 @@
+import { EventHandlingExample } from './components/EventHandlingExample'
 import { PropsExample } from './components/PropsExample'
 import { StateExample } from './components/StateExample'
 import './App.css'
@@ -15,6 +16,7 @@ function App() {
       </header>
       <PropsExample />
       <StateExample />
+      <EventHandlingExample />
     </main>
   )
 }

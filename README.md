@@ -1,4 +1,22 @@
-# React + TypeScript + Vite
+# Reacti: React fundamentals
+
+This project contains small, runnable examples for learning core React
+concepts. The examples are introduced one topic at a time across branches:
+
+- `props` demonstrates passing read-only data from a parent to a child.
+- `state` adds `useState` to keep changing UI data.
+- `event-handling` adds click, input, and form-submit event handlers.
+
+Run the app locally with:
+
+```bash
+npm install
+npm run dev
+```
+
+Build and lint checks are available with `npm run build` and `npm run lint`.
+
+## Vite template notes
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
