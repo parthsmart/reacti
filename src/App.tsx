@@ -6,14 +6,8 @@ import './App.css'
 function App() {
   return (
     <main className="app-shell">
-      <header className="hero-section">
-        <span className="eyebrow">Reacti · React fundamentals</span>
-        <h1>Learn React by building small examples.</h1>
-        <p>
-          Each lesson focuses on one idea and keeps the code close to the UI
-          you can see.
-        </p>
-      </header>
+      <h1>Simple React Examples</h1>
+      <p>Props, state, and events in small examples.</p>
       <PropsExample />
       <StateExample />
       <EventHandlingExample />

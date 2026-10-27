@@ -1,156 +1,24 @@
 .app-shell {
-  max-width: 980px;
   margin: 0 auto;
-  padding: 64px 24px;
-}
-
-.hero-section {
-  max-width: 680px;
-  margin-bottom: 48px;
-}
-
-.eyebrow,
-.lesson-number {
-  color: var(--accent);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  max-width: 700px;
+  padding: 48px 24px;
 }
 
 h1 {
   color: var(--text-h);
-  font-size: clamp(2.5rem, 7vw, 5rem);
-  letter-spacing: -0.06em;
-  line-height: 0.98;
-  margin: 16px 0;
-}
-
-.hero-section p,
-.lesson-copy > p {
-  color: var(--text);
-  font-size: 1.08rem;
-  line-height: 1.7;
-}
-
-.lesson {
-  align-items: center;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 24px;
-  box-shadow: var(--shadow);
-  display: grid;
-  gap: 48px;
-  grid-template-columns: 1fr 0.8fr;
-  padding: 40px;
-}
-
-.lesson h2 {
-  color: var(--text-h);
-  font-size: clamp(1.7rem, 4vw, 2.5rem);
-  letter-spacing: -0.04em;
-  margin: 12px 0;
-}
-
-.lesson-copy pre {
-  background: var(--code-bg);
-  border-radius: 12px;
-  color: var(--text-h);
-  overflow-x: auto;
-  padding: 16px;
+  margin-bottom: 8px;
 }
 
 .example-card {
-  background: linear-gradient(145deg, var(--accent-bg), var(--surface));
+  background: var(--accent-bg);
   border: 1px solid var(--accent-border);
-  border-radius: 18px;
-  padding: 28px;
-}
-
-.example-card h3 {
+  border-radius: 8px;
   color: var(--text-h);
-  font-size: 1.8rem;
-  margin: 12px 0;
+  margin-top: 24px;
+  padding: 16px;
 }
 
-.example-card p {
-  line-height: 1.6;
-}
-
-.example-card strong {
-  color: var(--text-h);
-}
-
-.task-list {
-  display: grid;
-  gap: 10px;
-  list-style: none;
-  margin: 20px 0;
-  padding: 0;
-}
-
-.task-list li {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  color: var(--text-h);
-  padding: 10px 12px;
-}
-
-.primary-button {
-  background: var(--accent);
-  border: 0;
-  border-radius: 10px;
-  color: #fff;
+button {
   cursor: pointer;
-  font: inherit;
-  font-weight: 700;
-  padding: 11px 16px;
-}
-
-.primary-button:hover {
-  filter: brightness(1.08);
-}
-
-.lesson-form {
-  display: grid;
-  gap: 10px;
-}
-
-.lesson-form label {
-  color: var(--text-h);
-  font-weight: 700;
-}
-
-.lesson-form input {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  color: var(--text-h);
-  font: inherit;
-  padding: 11px 12px;
-}
-
-.lesson-form input:focus {
-  border-color: var(--accent);
-  outline: 2px solid var(--accent-border);
-  outline-offset: 1px;
-}
-
-.event-message {
-  color: var(--text-h);
-  font-weight: 700;
-  margin-top: 20px;
-}
-
-@media (max-width: 720px) {
-  .app-shell {
-    padding: 40px 18px;
-  }
-
-  .lesson {
-    gap: 24px;
-    grid-template-columns: 1fr;
-    padding: 24px;
-  }
+  padding: 8px 12px;
 }
