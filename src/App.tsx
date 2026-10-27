@@ -5,8 +5,8 @@ import './App.css'
 function App() {
   return (
     <main className="app-shell">
-      <h1>React Props</h1>
-      <p>Props let a component receive data.</p>
+      <h1>Simple React Examples</h1>
+      <p>Props and state in small examples.</p>
       <PropsExample />
       <StateExample />
     </main>
