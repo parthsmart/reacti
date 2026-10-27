@@ -1,4 +1,5 @@
 import { PropsExample } from './components/PropsExample'
+import { StateExample } from './components/StateExample'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         </p>
       </header>
       <PropsExample />
+      <StateExample />
     </main>
   )
 }
